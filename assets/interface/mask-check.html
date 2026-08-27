@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Проверка масок шкал</title>
+<!-- ═══════════════════════════════════════════════════════════════════
+     ПРОВЕРКА МАСОК ГЛАЗАМИ.
+
+     Маски я построил из присланных текстур и проверил сам. Но «я посмотрел
+     и мне понравилось» — не проверка: заливка может лезть за контур,
+     оставлять дырки между прядями или не доходить до макушки, и на моём
+     листе с одним положением ползунка это не видно.
+
+     Здесь всё то же, что в игре: заливка поднимается ВНУТРИ силуэта по
+     маске, рисунок лежит поверх. Ползунок гоняет уровень от 0 до 100 —
+     сразу видно, где маска врёт.
+
+     Файлы берутся из папки рядом. Положите этот файл в assets/interface/
+     и откройте.
+     ═══════════════════════════════════════════════════════════════════ -->
+<style>
+:root{--bg:#0d0b09;--pan:#17130f;--ln:#3a2c1c;--gold:#e0a458;--txt:#e9e4dc;--dim:#8a7c6a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font-family:'Segoe UI',system-ui,sans-serif;padding:14px;}
+h1{color:var(--gold);font-size:1.05rem;margin-bottom:4px;}
+.hint{color:var(--dim);font-size:.78rem;line-height:1.5;max-width:760px;margin-bottom:12px;}
+.bar{position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:5;
+     display:flex;gap:14px;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--ln);}
+input[type=range]{width:280px;}
+button{background:#2a1c10;border:1px solid #7a5a2a;color:var(--gold);border-radius:6px;
+       padding:7px 12px;font-size:.8rem;cursor:pointer;}
+.val{color:var(--gold);font-weight:800;min-width:52px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin-top:14px;}
+.card{background:var(--pan);border:1px solid var(--ln);border-radius:9px;padding:9px;text-align:center;}
+.name{font-size:.66rem;color:var(--dim);margin-top:6px;word-break:break-all;line-height:1.3;}
+.art{position:relative;width:100%;aspect-ratio:1;}
+.art.bottle{aspect-ratio:52/96;}
+.masked{position:absolute;inset:0;-webkit-mask-size:contain;mask-size:contain;
+        -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+        -webkit-mask-position:center;mask-position:center;}
+.lvl{position:absolute;left:0;right:0;bottom:0;transition:height .15s;}
+img.top{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;}
+.bad{color:#e07070;font-size:.62rem;margin-top:3px;}
+</style>
+</head>
+<body>
+
+<h1>🎨 Проверка масок шкал</h1>
+<div class="hint">
+  Заливка поднимается <b>внутри контура</b> по маске, рисунок лежит поверх — ровно
+  как в игре. Гоняйте ползунок: заливка не должна вылезать за силуэт, оставлять
+  дырки между прядями или обрываться, не дойдя до макушки. Файлы берутся из папки
+  рядом с этой страницей.
+</div>
+
+<div class="bar">
+  <span>Уровень</span>
+  <input type="range" id="lvl" min="0" max="100" value="60">
+  <span class="val" id="val">60%</span>
+  <button id="play">▶ Прогнать 0→100</button>
+  <button id="grid">Показать сетку</button>
+</div>
+
+<div class="grid" id="cards"></div>
+
+<script>
+/* Список ИМЁН, а не пар: маска у каждого значка называется имя_mask.png —
+   так их строит инструмент и так их ищет клиент. Разойдётся имя — здесь
+   сразу будет видно битую картинку. */
+const ICONS = [
+  'fury_human_man', 'fury_human_woman',
+  'fury_elf_man',   'fury_elf_woman',
+  'fury_orc_man',   'fury_orc_woman',
+  'mood_human_man', 'mood_human_woman',
+  'mood_elf_man',   'mood_elf_woman',
+  'mood_orc_man',   'mood_orc_woman',
+  'arcane', 'faith', 'drunk'
+];
+/* Цвет заливки как в игре: у каждой шкалы свой. */
+const FILL = {
+  fury:  'linear-gradient(0deg,#8c1f14,#e8402c)',
+  mood:  'linear-gradient(0deg,#3e7fb5,#8fd0f5)',
+  arcane:'linear-gradient(0deg,#4b1d6b,#a95fe0)',
+  faith: 'linear-gradient(0deg,#6b5a1d,#e0c95f)',
+  drunk: 'linear-gradient(0deg,rgba(96,52,10,.86),rgba(196,132,44,.72))'
+};
+const fillOf = n => FILL[n.split('_')[0]] || FILL.fury;
+
+const cards = document.getElementById('cards');
+cards.innerHTML = ICONS.map(n => `
+  <div class="card">
+    <div class="art ${n === 'drunk' ? 'bottle' : ''}">
+      <div class="masked" id="m-${n}"
+           style="-webkit-mask-image:url(${n}_mask.png);mask-image:url(${n}_mask.png)">
+        <div class="lvl" id="l-${n}" style="background:${fillOf(n)}"></div>
+      </div>
+      <img class="top" src="${n}.png" onerror="this.dataset.bad=1;this.style.opacity=.15">
+    </div>
+    <div class="name">${n}</div>
+    <div class="bad" id="e-${n}"></div>
+  </div>`).join('');
+
+/* Битые файлы называем прямо: молчаливо пустая клетка неотличима от
+   «маска съела всё». */
+ICONS.forEach(n => {
+  const probe = new Image();
+  probe.onerror = () => { document.getElementById('e-' + n).textContent = 'нет ' + n + '_mask.png'; };
+  probe.src = n + '_mask.png';
+  const art = new Image();
+  art.onerror = () => {
+    const e = document.getElementById('e-' + n);
+    e.textContent = (e.textContent ? e.textContent + ' · ' : '') + 'нет ' + n + '.png';
+  };
+  art.src = n + '.png';
+});
+
+const slider = document.getElementById('lvl');
+const val = document.getElementById('val');
+function setLevel(v) {
+  val.textContent = v + '%';
+  ICONS.forEach(n => { document.getElementById('l-' + n).style.height = v + '%'; });
+}
+slider.oninput = () => setLevel(+slider.value);
+setLevel(60);
+
+/* Прогон 0→100: маска, которая врёт только на краях, на одном положении
+   ползунка незаметна. */
+let timer = null;
+document.getElementById('play').onclick = e => {
+  if (timer) { clearInterval(timer); timer = null; e.target.textContent = '▶ Прогнать 0→100'; return; }
+  e.target.textContent = '⏸ Стоп';
+  let v = 0;
+  timer = setInterval(() => {
+    v = (v + 2) % 102;
+    slider.value = v; setLevel(v);
+  }, 60);
+};
+
+/* Сетка помогает увидеть, ровно ли стоит силуэт в кадре. */
+document.getElementById('grid').onclick = e => {
+  const on = document.body.dataset.grid === '1';
+  document.body.dataset.grid = on ? '' : '1';
+  e.target.textContent = on ? 'Показать сетку' : 'Скрыть сетку';
+  document.querySelectorAll('.art').forEach(a => {
+    a.style.backgroundImage = on ? '' :
+      'linear-gradient(rgba(255,255,255,.10) 1px,transparent 1px),' +
+      'linear-gradient(90deg,rgba(255,255,255,.10) 1px,transparent 1px)';
+    a.style.backgroundSize = '25% 25%';
+  });
+};
+</script>
+</body>
+</html>
