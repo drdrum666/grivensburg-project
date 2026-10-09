@@ -1,0 +1,338 @@
+[
+  {
+    "file": "assets/vfx/ice_arrow.webp",
+    "width": 466,
+    "height": 225,
+    "bytes": 56108,
+    "sourceBytes": 131974,
+    "sha256": "3819b5c5a6619cf1d92f1235fb8adca2eec7942ae1d0c364fb94db25e16289ec",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/shield_dragon.webp",
+    "width": 332,
+    "height": 520,
+    "bytes": 61056,
+    "sourceBytes": 285956,
+    "sha256": "097095118dfce364256972533d53fd96e632379f91cdb7c9d4d2cfcfa51ec9ab",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/critical_reference.webp",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 330026,
+    "sourceBytes": 2576441,
+    "sha256": "e9c4255c89b047af0a738485bc4f52bd727d428595e60b182ed6313e265605a2",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/axe_double.webp",
+    "width": 275,
+    "height": 775,
+    "bytes": 49874,
+    "sourceBytes": 170608,
+    "sha256": "b0fe94dce1082de6fc0f24193952dd14e3c2023486e8f90dcc7f6adda9dd3058",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/fire_arrow.webp",
+    "width": 479,
+    "height": 201,
+    "bytes": 47644,
+    "sourceBytes": 113877,
+    "sha256": "bc7e29cb6c0f770f269887bc158fa38e900cc3ed9b3daad0f0eb7d96153235f6",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/burn_rim.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 370114,
+    "sourceBytes": 1300792,
+    "sha256": "1fe64682e626733a9a112fab40ec7e3afb1bec6f89e3b3dda353ca09ff623df3",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/fire_c.webp",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 206518,
+    "sourceBytes": 1327667,
+    "sha256": "ec1d5231931d11ac03e425f03d36c144379194e6fe60f49b73ae1864f353a8b6",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/bow.webp",
+    "width": 136,
+    "height": 717,
+    "bytes": 29020,
+    "sourceBytes": 92680,
+    "sha256": "8b8a24fd52d380e7f6eeac6ec9bc764155f1d30b429a6fddab0f5d256ff04937",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/sword_skull.webp",
+    "width": 189,
+    "height": 730,
+    "bytes": 38668,
+    "sourceBytes": 136567,
+    "sha256": "ff4dede598acc8bffd87725323b5e11ac6f1830e27dfd8b7d70c589226345a7f",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/fire_a.webp",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 190616,
+    "sourceBytes": 1264139,
+    "sha256": "02617a2a1f5323b6cb882d199f8aba07055cc063dc871c6c482ed96769c04b5b",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/axe_blue.webp",
+    "width": 207,
+    "height": 413,
+    "bytes": 26506,
+    "sourceBytes": 97186,
+    "sha256": "295d6ab1b3ce8181302387d3e9f62ab64919600e13e9e61476cb206d36b966e6",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/potion_mp.webp",
+    "width": 581,
+    "height": 768,
+    "bytes": 43756,
+    "sourceBytes": 44992,
+    "sha256": "b74e52410928d2218d976a9235fad71d41d0a8e561806658fbeece8dce242e64",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/axe_red.webp",
+    "width": 204,
+    "height": 431,
+    "bytes": 24988,
+    "sourceBytes": 91817,
+    "sha256": "36da2b37a7904578217d20e168b11f1d69f970d42d5020a067025b68d1ef4654",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/staff_purple.webp",
+    "width": 226,
+    "height": 585,
+    "bytes": 38614,
+    "sourceBytes": 141316,
+    "sha256": "498e761fbe7f2ee1894513afe1b9cb25af4697d30cff0af8c65a6bea870e5c89",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/impact_paper.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 268600,
+    "sourceBytes": 1041716,
+    "sha256": "206c114ea991d21581b72fb232af2c8bbd5ac7fff9382b8a50521bbd8c3af0b7",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/cuts_atlas.webp",
+    "width": 2172,
+    "height": 724,
+    "bytes": 88068,
+    "sourceBytes": 319355,
+    "sha256": "eb4ea9ea90ecee95008e838e0bf23af553ff220304f9c91b0593dfd668d84d6d",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/fire_b.webp",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 175640,
+    "sourceBytes": 1258533,
+    "sha256": "ca7694c96e63dc9d72fa68b098a090af8ae8278819f508716eda7302aee7eee7",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/staff_fire.webp",
+    "width": 113,
+    "height": 484,
+    "bytes": 19848,
+    "sourceBytes": 55748,
+    "sha256": "96530a0c8a81ee629d92ab8386209c3dee1ddb2114bce678ed9bf159bd544a4d",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/prayer_hands.webp",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 174934,
+    "sourceBytes": 1075502,
+    "sha256": "a84ff17ecfbc4ffade19a58590568d0c54f0e22215a0fa392e4c0e05aad412b5",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/potion_hp.webp",
+    "width": 565,
+    "height": 768,
+    "bytes": 43226,
+    "sourceBytes": 44940,
+    "sha256": "58d33085d54f34e3eaf66186fc630c200fb1cee3d07bd54561c0860ac0c5c9fa",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/sword_blue.webp",
+    "width": 175,
+    "height": 732,
+    "bytes": 30256,
+    "sourceBytes": 107681,
+    "sha256": "a393a642d60ca1d36ef8b7a211096fcb342fb510b81e816839e4613590e98c8d",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/fireball.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 393668,
+    "sourceBytes": 1742895,
+    "sha256": "4636d58182f2a65e11a7f75245342cab3782dabb261f3f204bc86c73847b4277",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/sword_short.webp",
+    "width": 175,
+    "height": 540,
+    "bytes": 20612,
+    "sourceBytes": 65302,
+    "sha256": "eabb7fd510dba546e96a76943df35674bcf342fb1f782999be26fc030dd7236c",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/assassin_hood.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 112676,
+    "sourceBytes": 1162091,
+    "sha256": "73e2f3d6bff435b4371824bb8c71407036874932aa5b1adcfcac203977b144f4",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/ice_crust.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 353528,
+    "sourceBytes": 2131051,
+    "sha256": "bf095c3a1d0d4ff3d5f30064172bffacce37ac34aea137e645abdd327639e250",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/arrow_burn_clean.webp",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 110616,
+    "sourceBytes": 807338,
+    "sha256": "b574a281be8e49ac3982183091e9e3ef80c665cfb1f76238453173c016ad30a8",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/dagger_rusty_left.webp",
+    "width": 540,
+    "height": 1024,
+    "bytes": 68122,
+    "sourceBytes": 315598,
+    "sha256": "6e4b81a8cd7117ef2a890451c213da1bfb30038898b546cdf7dfd943f9e4b257",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/dead_bards_lute.webp",
+    "width": 500,
+    "height": 750,
+    "bytes": 57764,
+    "sourceBytes": 267680,
+    "sha256": "8ba79f52492dc2543e5fccafb695a70dd49b727ff40b8296985aa533344094e8",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/dagger_stock.webp",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 82882,
+    "sourceBytes": 1138416,
+    "sha256": "68548ea1cebaee33260ccbbbfe6b3a8befc0a61c7c7a1dac3a8fda96ece0aa25",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/daddy_old_lute.webp",
+    "width": 500,
+    "height": 625,
+    "bytes": 71618,
+    "sourceBytes": 316211,
+    "sha256": "ca307966db271152f3acb2659475599785f1038736d55d30a2a84f01cd2af923",
+    "alpha": "lossless",
+    "quality": 90
+  },
+  {
+    "file": "assets/vfx/wolf_paw.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 175984,
+    "sha256": "88094774e7f119da6b7322325d79c81da358755c5b4e0de4e23b532583606118",
+    "source": "grivensburg-wolf-attacks-06",
+    "encoding": "original WebP, unchanged"
+  },
+  {
+    "file": "assets/vfx/dire_wolf_paw.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 183464,
+    "sha256": "e83f9a9919e6331f99e0b3fe4cfcd32d23f06d47562ff968b823a718a5a6ca73",
+    "source": "grivensburg-wolf-attacks-06",
+    "encoding": "original WebP, unchanged"
+  },
+  {
+    "file": "assets/vfx/rat_paw.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 221198,
+    "sha256": "2af5bc38b00b47d397c397c54ee6c7f58b4fb600b936b7bb8fe55533362c7f80",
+    "source": "grivensburg-beast-attacks-08",
+    "encoding": "original WebP, unchanged"
+  },
+  {
+    "file": "assets/vfx/rat_king_paw.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 261644,
+    "sha256": "c0a937299682455401ee14214e05fc3b2d1af7bede9534ea46080f768be6c1bf",
+    "source": "grivensburg-beast-attacks-08",
+    "encoding": "original WebP, unchanged"
+  }
+]
