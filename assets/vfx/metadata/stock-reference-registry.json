@@ -1,0 +1,692 @@
+{
+  "schema": "grivensburg-stock-reference",
+  "version": 1,
+  "revision": "stock-reference-2026-10-08-r2",
+  "coordinatePlane": {
+    "width": 300,
+    "height": 500,
+    "position": "center percentages",
+    "rotation": "degrees clockwise about image center",
+    "rasterFit": "fill; preserve approved independent width and height"
+  },
+  "profiles": {
+    "sword_short": {
+      "id": "sword_short",
+      "name": "Одноручный меч",
+      "kind": "sword",
+      "two": false,
+      "width": 175,
+      "height": 540,
+      "anchors": {
+        "grip": [
+          0.497,
+          0.9
+        ],
+        "tip": [
+          0.497,
+          0.015
+        ]
+      },
+      "labKey": "sword_short",
+      "edge": "both",
+      "labPivot": [
+        0.497,
+        1
+      ],
+      "image": "assets/vfx/sword_short.webp",
+      "sha256": "eabb7fd510dba546e96a76943df35674bcf342fb1f782999be26fc030dd7236c",
+      "mimeType": "image/webp",
+      "sourceSha256": "8148dd87428bf48739ec3127fcf949d34163512d63fe3b4fa53556402f9de827"
+    },
+    "sword_blue": {
+      "id": "sword_blue",
+      "name": "Двуручный меч · синий",
+      "kind": "sword",
+      "two": true,
+      "width": 175,
+      "height": 732,
+      "anchors": {
+        "grip": [
+          0.508,
+          0.9
+        ],
+        "tip": [
+          0.508,
+          0.015
+        ]
+      },
+      "labKey": "sword_blue",
+      "edge": "both",
+      "labPivot": [
+        0.508,
+        1
+      ],
+      "image": "assets/vfx/sword_blue.webp",
+      "sha256": "a393a642d60ca1d36ef8b7a211096fcb342fb510b81e816839e4613590e98c8d",
+      "mimeType": "image/webp",
+      "sourceSha256": "993a0050ac51e3bf97e5e40bbaf94fce8c1e344c885af6f18e244c457da9c2fa"
+    },
+    "sword_skull": {
+      "id": "sword_skull",
+      "name": "Двуручный меч · череп",
+      "kind": "sword",
+      "two": true,
+      "width": 189,
+      "height": 730,
+      "anchors": {
+        "grip": [
+          0.489,
+          0.9
+        ],
+        "tip": [
+          0.489,
+          0.015
+        ]
+      },
+      "labKey": "sword_skull",
+      "edge": "both",
+      "labPivot": [
+        0.489,
+        1
+      ],
+      "image": "assets/vfx/sword_skull.webp",
+      "sha256": "ff4dede598acc8bffd87725323b5e11ac6f1830e27dfd8b7d70c589226345a7f",
+      "mimeType": "image/webp",
+      "sourceSha256": "44bd91ceb07f0605bd5fd2c4c251864398239397a8ac052ba3e0b4818478eab4"
+    },
+    "axe_red": {
+      "id": "axe_red",
+      "name": "Одноручный топор · красный",
+      "kind": "axe",
+      "two": false,
+      "width": 204,
+      "height": 431,
+      "anchors": {
+        "grip": [
+          0.35,
+          0.9
+        ],
+        "tip": [
+          0.92,
+          0.23
+        ]
+      },
+      "labKey": "axe_red",
+      "edge": "right",
+      "labPivot": [
+        0.35,
+        1
+      ],
+      "image": "assets/vfx/axe_red.webp",
+      "sha256": "36da2b37a7904578217d20e168b11f1d69f970d42d5020a067025b68d1ef4654",
+      "mimeType": "image/webp",
+      "sourceSha256": "737355ff295409401adcc54d5d0bc3a53944a5631a3b063101baaef46f965767"
+    },
+    "axe_blue": {
+      "id": "axe_blue",
+      "name": "Одноручный топор · синий",
+      "kind": "axe",
+      "two": false,
+      "width": 207,
+      "height": 413,
+      "anchors": {
+        "grip": [
+          0.27,
+          0.9
+        ],
+        "tip": [
+          0.92,
+          0.23
+        ]
+      },
+      "labKey": "axe_blue",
+      "edge": "right",
+      "labPivot": [
+        0.27,
+        1
+      ],
+      "image": "assets/vfx/axe_blue.webp",
+      "sha256": "295d6ab1b3ce8181302387d3e9f62ab64919600e13e9e61476cb206d36b966e6",
+      "mimeType": "image/webp",
+      "sourceSha256": "1e669208d57b14f8751728df27a90d67a792759fc8d7e57c7c48f07c9b8568fc"
+    },
+    "axe_double": {
+      "id": "axe_double",
+      "name": "Двуручная секира",
+      "kind": "axe",
+      "two": true,
+      "width": 275,
+      "height": 775,
+      "anchors": {
+        "grip": [
+          0.42,
+          0.9
+        ],
+        "tip": [
+          0.97,
+          0.21
+        ]
+      },
+      "labKey": "axe_double",
+      "edge": "both",
+      "labPivot": [
+        0.42,
+        1
+      ],
+      "image": "assets/vfx/axe_double.webp",
+      "sha256": "b0fe94dce1082de6fc0f24193952dd14e3c2023486e8f90dcc7f6adda9dd3058",
+      "mimeType": "image/webp",
+      "sourceSha256": "43a2625e7360f0c7a57b18e30365f561af0cf23b61a6a4311d2b6c59fd2060b9"
+    },
+    "bow": {
+      "id": "bow",
+      "name": "Лук",
+      "kind": "bow",
+      "two": true,
+      "width": 136,
+      "height": 717,
+      "anchors": {
+        "grip": [
+          0.353,
+          0.5
+        ],
+        "tip": [
+          0.265,
+          0.012
+        ],
+        "bowBottom": [
+          0.221,
+          0.985
+        ],
+        "rest": [
+          0.243,
+          0.5
+        ]
+      },
+      "labKey": "bow",
+      "edge": "both",
+      "labPivot": [
+        0.353,
+        0.5
+      ],
+      "image": "assets/vfx/bow.webp",
+      "sha256": "8b8a24fd52d380e7f6eeac6ec9bc764155f1d30b429a6fddab0f5d256ff04937",
+      "mimeType": "image/webp",
+      "sourceSha256": "3e6773f3a616f51856d3b7086d603559073ea50c18f3fcc718bf1707c6c699ba"
+    },
+    "shield_dragon": {
+      "id": "shield_dragon",
+      "name": "Щит",
+      "kind": "shield",
+      "two": false,
+      "width": 332,
+      "height": 520,
+      "anchors": {
+        "grip": [
+          0.5,
+          0.5
+        ],
+        "tip": [
+          0.5,
+          0.02
+        ]
+      },
+      "labKey": "shield_dragon",
+      "edge": "both",
+      "labPivot": [
+        0.5,
+        0.5
+      ],
+      "image": "assets/vfx/shield_dragon.webp",
+      "sha256": "097095118dfce364256972533d53fd96e632379f91cdb7c9d4d2cfcfa51ec9ab",
+      "mimeType": "image/webp",
+      "sourceSha256": "f3bd4f8b639bf48dfcc5576f6312f2e513fe04dd2c8ce78c98676cbe7e19aa7b"
+    },
+    "staff_fire": {
+      "id": "staff_fire",
+      "name": "Жезл",
+      "kind": "wand",
+      "two": false,
+      "width": 113,
+      "height": 484,
+      "anchors": {
+        "grip": [
+          0.5,
+          0.78
+        ],
+        "tip": [
+          0.48,
+          0.09
+        ]
+      },
+      "labKey": "staff_fire",
+      "edge": "both",
+      "labPivot": [
+        0.5,
+        0.78
+      ],
+      "image": "assets/vfx/staff_fire.webp",
+      "sha256": "96530a0c8a81ee629d92ab8386209c3dee1ddb2114bce678ed9bf159bd544a4d",
+      "mimeType": "image/webp",
+      "sourceSha256": "1de1afbf67710c7b1429e14154fafb8f13cb8ce3b932b1c03f1215430083be5e"
+    },
+    "staff_purple": {
+      "id": "staff_purple",
+      "name": "Посох",
+      "kind": "staff",
+      "two": true,
+      "width": 226,
+      "height": 585,
+      "anchors": {
+        "grip": [
+          0.356,
+          0.72
+        ],
+        "tip": [
+          0.376,
+          0.171
+        ]
+      },
+      "labKey": "staff_purple",
+      "edge": "both",
+      "labPivot": [
+        0.356,
+        0.72
+      ],
+      "image": "assets/vfx/staff_purple.webp",
+      "sha256": "498e761fbe7f2ee1894513afe1b9cb25af4697d30cff0af8c65a6bea870e5c89",
+      "mimeType": "image/webp",
+      "sourceSha256": "d617c26c74ab3b9636ed4b70138d12a237e3286bd9789faa0776aaa39d38217c"
+    },
+    "dagger_stock": {
+      "id": "dagger_stock",
+      "name": "Кинжал",
+      "kind": "dagger",
+      "two": false,
+      "width": 1024,
+      "height": 1536,
+      "anchors": {
+        "grip": [
+          0.5,
+          0.79
+        ],
+        "tip": [
+          0.5,
+          0.018
+        ]
+      },
+      "labKey": null,
+      "edge": "both",
+      "labPivot": [
+        0.5,
+        0.79
+      ],
+      "image": "assets/vfx/dagger_stock.webp",
+      "sha256": "68548ea1cebaee33260ccbbbfe6b3a8befc0a61c7c7a1dac3a8fda96ece0aa25",
+      "mimeType": "image/webp",
+      "sourceSha256": "2ae5c6171d1c6054783d913a81b87d252a84c58d7faf2d99adf43abca5c66532"
+    },
+    "daddy_old_lute": {
+      "id": "daddy_old_lute",
+      "name": "Лютня · старая",
+      "kind": "instrument",
+      "two": true,
+      "width": 500,
+      "height": 625,
+      "anchors": {
+        "grip": [
+          0.54,
+          0.43
+        ],
+        "tip": [
+          0.47,
+          0.74
+        ]
+      },
+      "labKey": "daddy_old_lute",
+      "edge": "both",
+      "labPivot": [
+        0.54,
+        0.43
+      ],
+      "image": "assets/vfx/daddy_old_lute.webp",
+      "sha256": "ca307966db271152f3acb2659475599785f1038736d55d30a2a84f01cd2af923",
+      "mimeType": "image/webp",
+      "sourceSha256": "2a36a9527360ce1d9e7127d9d72fed7436d2eca452ff5f09b122ac2a951b12f1"
+    },
+    "dead_bards_lute": {
+      "id": "dead_bards_lute",
+      "name": "Лютня · тёмная",
+      "kind": "instrument",
+      "two": true,
+      "width": 500,
+      "height": 750,
+      "anchors": {
+        "grip": [
+          0.54,
+          0.43
+        ],
+        "tip": [
+          0.47,
+          0.74
+        ]
+      },
+      "labKey": "dead_bards_lute",
+      "edge": "both",
+      "labPivot": [
+        0.54,
+        0.43
+      ],
+      "image": "assets/vfx/dead_bards_lute.webp",
+      "sha256": "8ba79f52492dc2543e5fccafb695a70dd49b727ff40b8296985aa533344094e8",
+      "mimeType": "image/webp",
+      "sourceSha256": "9f8a444743e58c4b742bbf5d7bddc9e07fb5f643af12b5ec1fbe5fab94bcbd95"
+    },
+    "dagger_rusty_left": {
+      "id": "dagger_rusty_left",
+      "name": "Кинжал · ржавый (левая рука героя)",
+      "kind": "dagger",
+      "two": false,
+      "width": 540,
+      "height": 1024,
+      "anchors": {
+        "grip": [
+          0.53,
+          0.77
+        ],
+        "tip": [
+          0.53,
+          0.028
+        ]
+      },
+      "labKey": "dagger",
+      "edge": "both",
+      "labPivot": [
+        0.53,
+        0.77
+      ],
+      "defaultHand": "offhand",
+      "image": "assets/vfx/dagger_rusty_left.webp",
+      "sha256": "6e4b81a8cd7117ef2a890451c213da1bfb30038898b546cdf7dfd943f9e4b257",
+      "mimeType": "image/webp",
+      "sourceSha256": "903cf927b83b1120a9765a7aa300b01518216d4a25c5fa0729e8438872920cf2"
+    }
+  },
+  "fits": {
+    "stock_sword_short_mainhand": {
+      "x": 9.5,
+      "y": 35.9,
+      "w": 19.6,
+      "h": 40.4,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_sword_blue_mainhand": {
+      "x": 10.4,
+      "y": 37.6,
+      "w": 20.6,
+      "h": 54.8,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_axe_red_mainhand": {
+      "x": 12.2,
+      "y": 38.8,
+      "w": 23,
+      "h": 28,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_axe_double_mainhand": {
+      "x": 14.3,
+      "y": 35.9,
+      "w": 30.4,
+      "h": 50.3,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_bow_mainhand": {
+      "x": 7.6,
+      "y": 42.3,
+      "w": 16.8,
+      "h": 62,
+      "rot": -180,
+      "z": 7
+    },
+    "stock_staff_fire_mainhand": {
+      "x": 9.3,
+      "y": 44.4,
+      "w": 10.8,
+      "h": 28.6,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_staff_purple_mainhand": {
+      "x": 14.9,
+      "y": 43.2,
+      "w": 30.6,
+      "h": 63.2,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_dagger_stock_mainhand": {
+      "x": 9.6,
+      "y": 40,
+      "w": 21.4,
+      "h": 23.3,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_daddy_old_lute_mainhand": {
+      "x": 12.2,
+      "y": 40.9,
+      "w": 44.9,
+      "h": 39.8,
+      "rot": -26.7,
+      "z": 7
+    },
+    "stock_dead_bards_lute_mainhand": {
+      "x": 8.4,
+      "y": 41.4,
+      "w": 41.1,
+      "h": 37,
+      "rot": -20.8,
+      "z": 7
+    },
+    "stock_sword_short_offhand": {
+      "x": 85.3,
+      "y": 45.2,
+      "w": 23.8,
+      "h": 44,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_shield_dragon_offhand": {
+      "x": 83,
+      "y": 44.4,
+      "w": 34.8,
+      "h": 32.3,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_dagger_rusty_left_offhand": {
+      "x": 91.1,
+      "y": 50.9,
+      "w": 20.5,
+      "h": 21.6,
+      "rot": -179.8,
+      "z": 7
+    },
+    "stock_dagger_rusty_left_mainhand": {
+      "x": 8.900000000000006,
+      "y": 50.9,
+      "w": 20.5,
+      "h": 21.6,
+      "rot": 179.8,
+      "z": 7
+    },
+    "stock_sword_skull_mainhand": {
+      "x": 10.810198487671233,
+      "y": 37.6,
+      "w": 22.308953424657535,
+      "h": 54.8,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_axe_blue_mainhand": {
+      "x": 14.35174156103119,
+      "y": 38.8,
+      "w": 24.355398091439966,
+      "h": 28,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_axe_red_offhand": {
+      "x": 87.8,
+      "y": 38.8,
+      "w": 23,
+      "h": 28,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_axe_blue_offhand": {
+      "x": 85.64825843896881,
+      "y": 38.8,
+      "w": 24.355398091439966,
+      "h": 28,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_staff_fire_offhand": {
+      "x": 90.7,
+      "y": 44.4,
+      "w": 10.8,
+      "h": 28.6,
+      "rot": 0,
+      "z": 7
+    },
+    "stock_dagger_stock_offhand": {
+      "x": 90.4,
+      "y": 40,
+      "w": 21.4,
+      "h": 23.3,
+      "rot": 0,
+      "z": 7
+    }
+  },
+  "provenance": {
+    "stock_sword_short_mainhand": {
+      "hero": "drow_warrior_male",
+      "item": "stock_sword_short_mainhand",
+      "status": "user-saved"
+    },
+    "stock_sword_blue_mainhand": {
+      "hero": "drow_warrior_male",
+      "item": "stock_sword_blue_mainhand",
+      "status": "user-saved"
+    },
+    "stock_axe_red_mainhand": {
+      "hero": "drow_warrior_male",
+      "item": "stock_axe_red_mainhand",
+      "status": "user-saved"
+    },
+    "stock_axe_double_mainhand": {
+      "hero": "drow_warrior_male",
+      "item": "stock_axe_double_mainhand",
+      "status": "user-saved"
+    },
+    "stock_bow_mainhand": {
+      "hero": "drow_warrior_male",
+      "item": "stock_bow_mainhand",
+      "status": "user-saved"
+    },
+    "stock_staff_fire_mainhand": {
+      "hero": "drow_warrior_male",
+      "item": "stock_staff_fire_mainhand",
+      "status": "user-saved"
+    },
+    "stock_staff_purple_mainhand": {
+      "hero": "drow_warrior_male",
+      "item": "stock_staff_purple_mainhand",
+      "status": "user-saved"
+    },
+    "stock_dagger_stock_mainhand": {
+      "hero": "drow_warrior_male",
+      "item": "stock_dagger_stock_mainhand",
+      "status": "user-saved"
+    },
+    "stock_daddy_old_lute_mainhand": {
+      "hero": "drow_warrior_male",
+      "item": "stock_daddy_old_lute_mainhand",
+      "status": "user-saved"
+    },
+    "stock_dead_bards_lute_mainhand": {
+      "hero": "drow_warrior_male",
+      "item": "stock_dead_bards_lute_mainhand",
+      "status": "user-saved"
+    },
+    "stock_sword_short_offhand": {
+      "hero": "drow_warrior_male",
+      "item": "stock_sword_short_offhand",
+      "status": "user-saved"
+    },
+    "stock_shield_dragon_offhand": {
+      "hero": "drow_rogue_male",
+      "item": "stock_shield_dragon_offhand",
+      "status": "user-saved"
+    },
+    "stock_dagger_rusty_left_offhand": {
+      "hero": "drow_rogue_male",
+      "item": "rusty_dagger",
+      "status": "user-saved"
+    },
+    "stock_dagger_rusty_left_mainhand": {
+      "status": "derived-other-hand",
+      "from": "stock_dagger_rusty_left_offhand"
+    },
+    "stock_sword_skull_mainhand": {
+      "status": "derived-alternate",
+      "from": "stock_sword_blue_mainhand"
+    },
+    "stock_axe_blue_mainhand": {
+      "status": "derived-alternate",
+      "from": "stock_axe_red_mainhand"
+    },
+    "stock_axe_red_offhand": {
+      "status": "derived-other-hand",
+      "from": "stock_axe_red_mainhand"
+    },
+    "stock_axe_blue_offhand": {
+      "status": "derived-other-hand",
+      "from": "stock_axe_blue_mainhand"
+    },
+    "stock_staff_fire_offhand": {
+      "status": "derived-other-hand",
+      "from": "stock_staff_fire_mainhand"
+    },
+    "stock_dagger_stock_offhand": {
+      "status": "derived-other-hand",
+      "from": "stock_dagger_stock_mainhand"
+    }
+  },
+  "typeTemplates": {
+    "bow_two": "bow",
+    "dagger_one": "dagger_stock",
+    "sword_one": "sword_short",
+    "sword_two": "sword_blue",
+    "axe_one": "axe_red",
+    "axe_two": "axe_double",
+    "wand_one": "staff_fire",
+    "staff_two": "staff_purple",
+    "instrument_two": "dead_bards_lute",
+    "shield_one": "shield_dragon"
+  },
+  "daggerHands": {
+    "screenLeft": "stock_dagger_stock_mainhand",
+    "screenRight": "stock_dagger_rusty_left_offhand"
+  },
+  "itemTemplateOverrides": {
+    "rusty_dagger": "dagger_stock",
+    "rusty_dagger_off": "dagger_rusty_left"
+  }
+}
