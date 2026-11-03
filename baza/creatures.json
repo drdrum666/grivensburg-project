@@ -1,0 +1,146 @@
+{
+  "schema": "grivensburg-creatures/1",
+  "rulesVersion": "workshop-1.2.0",
+  "creatures": [
+    {
+      "key": "fat_rat",
+      "name": "Нажористый Пацюк",
+      "hp": 11,
+      "atk": 3,
+      "init": 0,
+      "potionHeal": 0,
+      "profile": "animal",
+      "params": {
+        "kingAttackBonus": 1,
+        "fearPenalty": 1
+      },
+      "skills": [
+        "attack",
+        "potion"
+      ],
+      "tactic": "rules",
+      "description": ""
+    },
+    {
+      "key": "rat_king",
+      "name": "Царский Пацюк",
+      "hp": 34,
+      "atk": 4,
+      "init": 1,
+      "potionHeal": 0,
+      "profile": "animal_boss",
+      "params": {
+        "kingAttackBonus": 1,
+        "fearPenalty": 1
+      },
+      "skills": [
+        "attack",
+        "potion",
+        "infected_wound",
+        "king"
+      ],
+      "tactic": "rules",
+      "description": ""
+    },
+    {
+      "key": "wild_wolf",
+      "name": "Дикий Волк",
+      "hp": 16,
+      "atk": 4,
+      "init": 3,
+      "potionHeal": 0,
+      "profile": "animal",
+      "params": {
+        "kingAttackBonus": 1,
+        "fearPenalty": 1
+      },
+      "skills": [
+        "attack",
+        "potion",
+        "deep_wound"
+      ],
+      "tactic": "rules",
+      "description": ""
+    },
+    {
+      "key": "direwolf",
+      "name": "Лютоволк",
+      "hp": 42,
+      "atk": 5,
+      "init": 4,
+      "potionHeal": 0,
+      "profile": "animal_boss",
+      "params": {
+        "kingAttackBonus": 1,
+        "fearPenalty": 1
+      },
+      "skills": [
+        "attack",
+        "potion",
+        "fear_howl",
+        "deep_wound"
+      ],
+      "tactic": "rules",
+      "description": ""
+    },
+    {
+      "key": "bandit",
+      "name": "Бандит",
+      "hp": 22,
+      "atk": 4,
+      "init": 1,
+      "potionHeal": 10,
+      "profile": "melee",
+      "params": {
+        "kingAttackBonus": 1,
+        "fearPenalty": 1
+      },
+      "skills": [
+        "attack",
+        "potion"
+      ],
+      "tactic": "rules",
+      "description": ""
+    },
+    {
+      "key": "bandit_archer",
+      "name": "Лучник Бандитов",
+      "hp": 17,
+      "atk": 4,
+      "init": 2,
+      "potionHeal": 0,
+      "profile": "archer",
+      "params": {
+        "kingAttackBonus": 1,
+        "fearPenalty": 1
+      },
+      "skills": [
+        "attack",
+        "potion"
+      ],
+      "tactic": "rules",
+      "description": ""
+    },
+    {
+      "key": "bandit_leader",
+      "name": "Главарь",
+      "hp": 55,
+      "atk": 5,
+      "init": 3,
+      "potionHeal": 10,
+      "profile": "boss",
+      "params": {
+        "kingAttackBonus": 1,
+        "fearPenalty": 1
+      },
+      "skills": [
+        "attack",
+        "potion",
+        "fury",
+        "head_stun"
+      ],
+      "tactic": "rules",
+      "description": ""
+    }
+  ]
+}
