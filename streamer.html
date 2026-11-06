@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Гривенсбург — Стример · FIX33.1-R11</title>
+    <title>Гривенсбург — Стример · FIX33.1-R13</title>
     <style>
 input[type=number]{appearance:textfield!important;-moz-appearance:textfield!important;-webkit-appearance:none!important;}
 input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none!important;display:none!important;margin:0!important;}
@@ -12710,7 +12710,7 @@ global.GrivensburgVFX={create,version:'1.2.0',approved:'lab-2.9.0 + closeup-cont
 .round-preview{padding:14px 24px;border:1px solid #b69659;border-radius:6px;color:#e7ce9c;background:#201a15d9;font:600 28px Georgia,serif}
 
 </style>
-<meta name="grivensburg-build" content="FIX33.1-R11">
+<meta name="grivensburg-build" content="FIX33.1-R13">
 <meta name="grivensburg-data-signature" content="4a2d3896ac31d1b8e09b994885030d65caa75c4e95c9fa21d17e5fdc20dad02a">
 </head>
 <body>
@@ -12754,7 +12754,7 @@ global.GrivensburgVFX={create,version:'1.2.0',approved:'lab-2.9.0 + closeup-cont
         
         <div class="stream-header">
             <div class="stream-room-badge" id="streamRoomBadge" onclick="exitStreamRoom()" title="Выйти / сменить комнату">Комната: <span id="streamRoomName">...</span> ✖</div>
-            <div class="header-version">STREAM FIX33.1-R11</div>
+            <div class="header-version">STREAM FIX33.1-R13</div>
             <div class="header-title-container">
                 <h1 class="header-title">🏰 Старый Гривенсбург <span id="scenario-tag" class="scenario-tag">...</span></h1>
             </div>
@@ -13613,6 +13613,7 @@ function collectGear(slots) {
 
 function poolReadout(p,v,key){
     const b=CR.resourceView(p,v)[key],color=key==='hp'?'#db555b':'#589ee6';
+    if(key==='hp')return `<span title="Обычные ${b.current}/${b.max}; временные ${b.temporary}/${b.capacity}; всего ${b.total}/${b.totalMax}">${b.total}/${b.totalMax}</span>`;
     return b.capacity?`<span title="Обычные ${b.current}/${b.max}; временные ${b.temporary}/${b.capacity}; всего ${b.total}/${b.totalMax}">${b.current} <span style="color:${color};white-space:nowrap">(+${b.temporary})</span></span>`:`${b.current}/${b.max}`;
 }
 function derivePlayer(id, p) {
