@@ -1,0 +1,76 @@
+{
+  "build": "FIX33.1-R16.3",
+  "signature": "d538c39b3563e909bc046efbf0e4ed1b69a1399a8262db814a8661b265cfbbae",
+  "files": {
+    "combat-ai.js": {
+      "git": "778082b74ba3939065d15cde8391fa34e873a125",
+      "sha256": "633a94c157cfe2dc68a22957e13cf34964958a291f59631da128517161ce6645",
+      "bytes": 9600
+    },
+    "combat-rules.js": {
+      "git": "4dda87a8767ca0fdfaeb535662591bb14ff4e024",
+      "sha256": "56f5f8a6f55976418afad527d88b0ff53d8a1056c57f5ca5dee41d049d393458",
+      "bytes": 349052
+    },
+    "creatures.json": {
+      "git": "19faa25c25f55df09142bff913e94ab2506a4e1b",
+      "sha256": "7370865386a189a4943557bb7a40731181077564f784b24105c90b0d3baa0a23",
+      "bytes": 2841
+    },
+    "data-chapters.js": {
+      "git": "62e0db5b89381e4c50534466083ab789da579344",
+      "sha256": "73922c940648244ed5f27725ca3a1ff87ebcf331217b1764d2928105ba0587ea",
+      "bytes": 35780
+    },
+    "data-creatures.js": {
+      "git": "51998f3af1137a017c7298291719c020ea2f2b6a",
+      "sha256": "1a650db0c9826b0ed2f15fc19ad797c8bd71bf71a840f059a91ca21fd8ef7003",
+      "bytes": 2165
+    },
+    "data-enemies.js": {
+      "git": "559e00a5c32f57c3d1ca35d0aa737fa7a78e0099",
+      "sha256": "8980718d7678fed86aa0c6593b11d9029a95afee69dfcca0f51381dc6bf70a32",
+      "bytes": 10557
+    },
+    "data-items.js": {
+      "git": "8236a4ac2ac9fb78bab46da943cdfd8c36da8351",
+      "sha256": "1149c78eb7d20218c4111aede0ec0e4f129c06013f6129c4940d02188ba51fd0",
+      "bytes": 22243
+    },
+    "data-music.js": {
+      "git": "a8c840708b784d79f968f6bee70d856aa17eb673",
+      "sha256": "33f2eb6cee96c62bb75d73526c11dfda58c9a03d727e064175b096f9309d383d",
+      "bytes": 40930
+    },
+    "data-rewards.js": {
+      "git": "31deaf2388bee0c0755851d55ac22bcef1d878c5",
+      "sha256": "b558b3daf40a0187b22fa255e4c15036d354941fa3c9d05271750665816a68c1",
+      "bytes": 2939
+    },
+    "encounter-balance.js": {
+      "git": "4adfe35b0c6e6eb3c0b6d015d853fe5a7068a986",
+      "sha256": "58ffd9704cf2748ebc7efad754c44500d31073981cdfc5a74f0da9ab67a1a49e",
+      "bytes": 129929
+    },
+    "shared-encounters.json": {
+      "git": "0e7988634344b826d6568cc555f4926e4873ede3",
+      "sha256": "e3fc9e5c7579fa60fe0cfa48ad3c8f880e88b6e2066c93252772a75b1e1365b7",
+      "bytes": 143789
+    },
+    "simulation-model.js": {
+      "git": "e1f36545bca9bcebb898750a1cf21fb72b5e83be",
+      "sha256": "a6c29ad08f64beef92118fb2a26ce3ded5b2bb6de1ce8a7568a20ebe7f03405a",
+      "bytes": 681522
+    },
+    "workshop-game.js": {
+      "git": "206a8630ceb8bc7be0ba827021ecebbb288e1995",
+      "sha256": "e5a91c5518cf89496bb17fc68504c63eacf0107914a92dc9541bb40de6795655",
+      "bytes": 6191
+    },
+    "workshop-rules.js": {
+      "git": "1c955022714534de7fc41ac45ad6df5a5b2bfc14",
+      "sha256": "df44efd293b5d6d96ab88ecf838aa6880143950dc1ec7af6c61edc54e56b0960",
+      "bytes": 9768
+    }
+  }
+}
