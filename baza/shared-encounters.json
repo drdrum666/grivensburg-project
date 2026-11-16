@@ -1,0 +1,6338 @@
+{
+  "schema": "grivensburg-encounters-shared/1",
+  "source": "ROUNDS V4 d20 + approved medium/5 wolf damage 5 then 6",
+  "policy": "dice mode affects rolls only, never encounter selection",
+  "records": [
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "easy",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 1,
+          "hp": 10,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "easy",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 2,
+          "hp": 10,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "easy",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 4,
+          "hp": 12,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "easy",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 5,
+          "hp": 12,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "easy",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 6,
+          "hp": 12,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "easy",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 4,
+          "hp": 10,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "easy",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 5,
+          "hp": 11,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "easy",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 3,
+          "hp": 8,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "normal",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 2,
+          "hp": 7,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "normal",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 3,
+          "hp": 10,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "normal",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 5,
+          "hp": 10,
+          "atk": 2,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "normal",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 6,
+          "hp": 11,
+          "atk": 2,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "normal",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 6,
+          "hp": 12,
+          "atk": 2,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "normal",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 9,
+          "hp": 10,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "normal",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 10,
+          "hp": 11,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "normal",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 3,
+          "hp": 8,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "hard",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 2,
+          "hp": 9,
+          "atk": 4,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "hard",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 4,
+          "hp": 12,
+          "atk": 4,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "hard",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 4,
+          "hp": 12,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "hard",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 6,
+          "hp": 10,
+          "atk": 2,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "hard",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 7,
+          "hp": 11,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "hard",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 10,
+          "hp": 14,
+          "atk": 4,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "hard",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 11,
+          "hp": 12,
+          "atk": 4,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc1_rats",
+      "difficulty": "hard",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "fat_rat",
+          "count": 5,
+          "hp": 8,
+          "atk": 6,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "easy",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 9,
+          "atk": 3,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "easy",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 19,
+          "atk": 3,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 1,
+          "hp": 10,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "easy",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 41,
+          "atk": 3,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 1,
+          "hp": 12,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "easy",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 60,
+          "atk": 3,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 1,
+          "hp": 14,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "easy",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 75,
+          "atk": 3,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 1,
+          "hp": 15,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "easy",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 53,
+          "atk": 3,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 2,
+          "hp": 10,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "easy",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 62,
+          "atk": 3,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 2,
+          "hp": 11,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "easy",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 40,
+          "atk": 3,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 2,
+          "hp": 6,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "normal",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 12,
+          "atk": 6,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "normal",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 32,
+          "atk": 6,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 2,
+          "hp": 10,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "normal",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 62,
+          "atk": 4,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 4,
+          "hp": 13,
+          "atk": 1,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "normal",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 69,
+          "atk": 5,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 6,
+          "hp": 12,
+          "atk": 2,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "normal",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 72,
+          "atk": 6,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 8,
+          "hp": 10,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "normal",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 179,
+          "atk": 6,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 9,
+          "hp": 12,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "normal",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 220,
+          "atk": 6,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 10,
+          "hp": 18,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "normal",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 45,
+          "atk": 11,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 7,
+          "hp": 12,
+          "atk": 7,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "hard",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 13,
+          "atk": 7,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "hard",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 37,
+          "atk": 7,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 2,
+          "hp": 10,
+          "atk": 4,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "hard",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 102,
+          "atk": 5,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 3,
+          "hp": 13,
+          "atk": 2,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "hard",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 104,
+          "atk": 5,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 5,
+          "hp": 13,
+          "atk": 3,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "hard",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 107,
+          "atk": 6,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 8,
+          "hp": 12,
+          "atk": 2,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "hard",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 147,
+          "atk": 7,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 9,
+          "hp": 14,
+          "atk": 4,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "hard",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 362,
+          "atk": 7,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 2,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 10,
+          "hp": 14,
+          "atk": 4,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc2_king",
+      "difficulty": "hard",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "rat_king",
+          "count": 1,
+          "hp": 80,
+          "atk": 12,
+          "init": 1,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 2,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "infected_wound",
+              "king"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "fat_rat",
+          "count": 8,
+          "hp": 14,
+          "atk": 6,
+          "init": 0,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "easy",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 1,
+          "hp": 16,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "easy",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 2,
+          "hp": 16,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "easy",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 2,
+          "hp": 13,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "easy",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 3,
+          "hp": 11,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "easy",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 3,
+          "hp": 13,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "easy",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 4,
+          "hp": 16,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "easy",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 5,
+          "hp": 17,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "easy",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 5,
+          "hp": 6,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "normal",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 1,
+          "hp": 19,
+          "atk": 6,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "normal",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 2,
+          "hp": 16,
+          "atk": 6,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "normal",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 4,
+          "hp": 14,
+          "atk": 5,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "normal",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 6,
+          "hp": 14,
+          "atk": 6,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "normal",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 7,
+          "hp": 11,
+          "atk": 5,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "normal",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 8,
+          "hp": 16,
+          "atk": 6,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "normal",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 10,
+          "hp": 17,
+          "atk": 6,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "normal",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 10,
+          "hp": 6,
+          "atk": 9,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "hard",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 2,
+          "hp": 10,
+          "atk": 7,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "hard",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 3,
+          "hp": 16,
+          "atk": 7,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "hard",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 5,
+          "hp": 20,
+          "atk": 5,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "hard",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 6,
+          "hp": 16,
+          "atk": 6,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "hard",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 7,
+          "hp": 15,
+          "atk": 6,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "hard",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 9,
+          "hp": 16,
+          "atk": 7,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "hard",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 11,
+          "hp": 17,
+          "atk": 7,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc3_wolves",
+      "difficulty": "hard",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "wild_wolf",
+          "count": 11,
+          "hp": 8,
+          "atk": 9,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "easy",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 12,
+          "atk": 4,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "easy",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 25,
+          "atk": 4,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 1,
+          "hp": 16,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "easy",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 30,
+          "atk": 4,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 1,
+          "hp": 13,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "easy",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 34,
+          "atk": 4,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 1,
+          "hp": 11,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "easy",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 49,
+          "atk": 3,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 1,
+          "hp": 13,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "easy",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 74,
+          "atk": 4,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 2,
+          "hp": 16,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "easy",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 87,
+          "atk": 4,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 2,
+          "hp": 17,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "easy",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 22,
+          "atk": 4,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 2,
+          "hp": 6,
+          "atk": 2,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "normal",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 27,
+          "atk": 7,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "normal",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 45,
+          "atk": 7,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 2,
+          "hp": 16,
+          "atk": 4,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "normal",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 58,
+          "atk": 6,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 2,
+          "hp": 14,
+          "atk": 3,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "normal",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 63,
+          "atk": 7,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 3,
+          "hp": 14,
+          "atk": 4,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "normal",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 66,
+          "atk": 7,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 4,
+          "hp": 11,
+          "atk": 6,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "normal",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 108,
+          "atk": 7,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 5,
+          "hp": 16,
+          "atk": 4,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "normal",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 91,
+          "atk": 7,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 6,
+          "hp": 20,
+          "atk": 4,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "normal",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 42,
+          "atk": 10,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 6,
+          "hp": 6,
+          "atk": 7,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "hard",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 14,
+          "atk": 8,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "hard",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 45,
+          "atk": 8,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 2,
+          "hp": 16,
+          "atk": 6,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "hard",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 89,
+          "atk": 6,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 3,
+          "hp": 20,
+          "atk": 4,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "hard",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 87,
+          "atk": 7,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 4,
+          "hp": 16,
+          "atk": 5,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "hard",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 96,
+          "atk": 7,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 5,
+          "hp": 15,
+          "atk": 5,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "hard",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 130,
+          "atk": 8,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 6,
+          "hp": 16,
+          "atk": 6,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "hard",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 99,
+          "atk": 8,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 2
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 7,
+          "hp": 21,
+          "atk": 6,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc4_alpha",
+      "difficulty": "hard",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "direwolf",
+          "count": 1,
+          "hp": 86,
+          "atk": 10,
+          "init": 4,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal_boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 2
+            },
+            "skills": [
+              "fear_howl"
+            ],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        },
+        {
+          "key": "wild_wolf",
+          "count": 7,
+          "hp": 7,
+          "atk": 8,
+          "init": 3,
+          "heal": 0,
+          "human": false,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "animal",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [
+              "deep_wound"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": ""
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "easy",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 14,
+          "atk": 4,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "easy",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 29,
+          "atk": 4,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 1,
+          "hp": 22,
+          "atk": 2,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "easy",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 56,
+          "atk": 3,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 1,
+          "hp": 27,
+          "atk": 2,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "easy",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 78,
+          "atk": 3,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 1,
+          "hp": 30,
+          "atk": 2,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "easy",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 104,
+          "atk": 3,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 1,
+          "hp": 32,
+          "atk": 2,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "easy",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 85,
+          "atk": 4,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 2,
+          "hp": 23,
+          "atk": 2,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "easy",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 99,
+          "atk": 4,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 2,
+          "hp": 23,
+          "atk": 2,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "easy",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 60,
+          "atk": 4,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 2,
+          "hp": 14,
+          "atk": 2,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "normal",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 31,
+          "atk": 7,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "normal",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 49,
+          "atk": 7,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 1,
+          "hp": 21,
+          "atk": 6,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit_archer",
+          "count": 1,
+          "hp": 19,
+          "atk": 6,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "normal",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 53,
+          "atk": 7,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 4,
+          "hp": 21,
+          "atk": 6,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit_archer",
+          "count": 1,
+          "hp": 13,
+          "atk": 6,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "normal",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 82,
+          "atk": 6,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 5,
+          "hp": 24,
+          "atk": 5,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit_archer",
+          "count": 2,
+          "hp": 15,
+          "atk": 5,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "normal",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 108,
+          "atk": 7,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 5,
+          "hp": 23,
+          "atk": 6,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit_archer",
+          "count": 3,
+          "hp": 16,
+          "atk": 6,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "normal",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 199,
+          "atk": 7,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 5,
+          "hp": 31,
+          "atk": 6,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit_archer",
+          "count": 4,
+          "hp": 24,
+          "atk": 6,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "normal",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 95,
+          "atk": 7,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 1,
+          "hp": 32,
+          "atk": 6,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit_archer",
+          "count": 9,
+          "hp": 25,
+          "atk": 6,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "normal",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 60,
+          "atk": 10,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit",
+          "count": 4,
+          "hp": 16,
+          "atk": 9,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          }
+        },
+        {
+          "key": "bandit_archer",
+          "count": 4,
+          "hp": 12,
+          "atk": 9,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "hard",
+      "players": 1,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 52,
+          "atk": 8,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "hard",
+      "players": 2,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 50,
+          "atk": 8,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit",
+          "count": 2,
+          "hp": 27,
+          "atk": 7,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit_archer",
+          "count": 1,
+          "hp": 21,
+          "atk": 8,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "hard",
+      "players": 3,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 75,
+          "atk": 7,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit",
+          "count": 3,
+          "hp": 25,
+          "atk": 6,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit_archer",
+          "count": 2,
+          "hp": 21,
+          "atk": 6,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "hard",
+      "players": 4,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 119,
+          "atk": 8,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit",
+          "count": 4,
+          "hp": 24,
+          "atk": 6,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit_archer",
+          "count": 3,
+          "hp": 21,
+          "atk": 7,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "hard",
+      "players": 5,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 178,
+          "atk": 11,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit",
+          "count": 5,
+          "hp": 22,
+          "atk": 8,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit_archer",
+          "count": 3,
+          "hp": 19,
+          "atk": 8,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "hard",
+      "players": 6,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 340,
+          "atk": 8,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit",
+          "count": 1,
+          "hp": 29,
+          "atk": 7,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit_archer",
+          "count": 8,
+          "hp": 25,
+          "atk": 8,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "hard",
+      "players": 7,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 386,
+          "atk": 8,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit",
+          "count": 1,
+          "hp": 32,
+          "atk": 7,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit_archer",
+          "count": 9,
+          "hp": 28,
+          "atk": 8,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    },
+    {
+      "sceneId": "sc5_bandits",
+      "difficulty": "hard",
+      "players": 8,
+      "enemies": [
+        {
+          "key": "bandit_leader",
+          "count": 1,
+          "hp": 99,
+          "atk": 13,
+          "init": 3,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": true,
+          "hasShield": false,
+          "ai": {
+            "profile": "boss",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [
+              "fury"
+            ],
+            "passives": [
+              "head_stun"
+            ],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit",
+          "count": 4,
+          "hp": 27,
+          "atk": 12,
+          "init": 1,
+          "heal": 10,
+          "human": true,
+          "isRanged": false,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "melee",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "rules"
+          },
+          "slots": {
+            "mainhand": "rusty_sword"
+          },
+          "potions": 1
+        },
+        {
+          "key": "bandit_archer",
+          "count": 5,
+          "hp": 22,
+          "atk": 12,
+          "init": 2,
+          "heal": 0,
+          "human": true,
+          "isRanged": true,
+          "isUnique": false,
+          "hasShield": false,
+          "ai": {
+            "profile": "archer",
+            "params": {
+              "kingAttackBonus": 1,
+              "fearPenalty": 1
+            },
+            "skills": [],
+            "passives": [],
+            "allowPotion": true,
+            "tactic": "weakest"
+          },
+          "slots": {
+            "mainhand": "short_bow"
+          }
+        }
+      ]
+    }
+  ]
+}
