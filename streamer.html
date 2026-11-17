@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Гривенсбург — Стример · FIX33.1-R16.4-A1-HF09</title>
+    <title>Гривенсбург — Стример · FIX33.1-R16.4-A1-HF11</title>
     <style>
 input[type=number]{appearance:textfield!important;-moz-appearance:textfield!important;-webkit-appearance:none!important;}
 input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none!important;display:none!important;margin:0!important;}
@@ -814,7 +814,7 @@ w.GrivensburgScreen={read,set,clean,overrides,independent,setIndependent,reset,s
    1. КОНСТАНТЫ ПРАВИЛ  (раздел 3 ТЗ)
    ========================================================================== */
 
-var BUILD = 'FIX33.1-R16.4-A1-HF09'; /* R16.4-A1-INT1: локальный перехват GAME45; совместимость с Клиентом/Стримером A1 сохранена. */
+var BUILD = 'FIX33.1-R16.4-A1-HF11'; /* R16.4-A1-INT1: локальный перехват GAME45; совместимость с Клиентом/Стримером A1 сохранена. */
 var VERSION = 'engine-1.13.0-fix33'; /* Общие боевые правила, временные ресурсы и мирные перезарядки. */
 
 /* Пороги броска. Численно одинаковы для 2d10 и d20 (раздел 3). */
@@ -1687,7 +1687,7 @@ var EFFECT_ICONS = {
     fear:      'assets/gear/spells/wolf_howl.png',
     surrounded: 'assets/gear/spells/surrounded.png',
     shield:     'assets/gear/spells/total_defense.png',
-    drunk:      'assets/interface/drunk.png',
+    drunk:      'assets/gear/spells/drunked.png',
     /* Молитвы жреца — картинки автора. */
     god_protection: 'assets/gear/spells/holly_deff.png',
     god_wisdom:     'assets/gear/spells/holly_arcane.png'
@@ -2568,17 +2568,12 @@ function deriveDrunkEffects(player, world) {
     var st = drunkStep(player);
     if (st > 0) {
         var d = DRUNK_STEPS[st];
-        /* ОПЬЯНЕНИЕ — НЕ ДЕБАФ, А СОСТОЯНИЕ. У него своя бутылка со шкалой,
-           по которой видно и градус, и что он даёт. Кружком в ряду дебафов
-           оно только путало: там висела иконка БАДУНА, то есть чужая
-           картинка от совсем другого эффекта.
-
-           Оставляем его в списке для дашборда и стримера (им нужно знать
-           поправки), но помечаем hidden — клиент такие не рисует: у него
-           для этого есть бутылка. */
+        /* С первой ступени уже меняется сила крита. Показываем отдельную
+           иконку опьянения рядом с прочими эффектами; бутылка остаётся
+           шкалой. При нулевой ступени эффект и значок исчезают сами. */
         out.push({
             id: 'drunk', kind: 'debuff', duration: 'battle', hidden: false,
-            name: 'Опьянение', icon: EFFECT_ICONS.drunk || EFFECT_ICONS.hangover,
+            name: 'Опьянение', icon: EFFECT_ICONS.drunk,
             tooltip: 'Опьянение ' + d.pct + '%',
             modifiers: { atk: d.atk, def: d.atk, critChance: d.critChance, critPower: d.critPower }
         });
@@ -12306,7 +12301,7 @@ function draw(dt){
  c.save();c.globalAlpha=1;c.globalCompositeOperation='source-over';c.scale(scale,scale);
  if((turns||bardActive)&&time>=suppressedUntil)drawLute(playing,age,turns?1:smooth(age/.18)*(1-smooth((age-5.8)/.6)));
  if(active){
-  if(active.type==='major'||active.type==='minor')song(age,active.type==='minor');
+  if(active.type==='major'||active.type==='minor'||active.type==='inspire')song(age,active.type==='minor');
   if(active.type==='fortune')fortune(age);
   if(active.type.startsWith('prayer')&&loaded(img['prayer-hands']))prayer(age,active.type==='prayerStrength');
   if(age>7.2)active=null;
@@ -12586,6 +12581,7 @@ function dispatch(){
   SFX.play('magic_cast');objs.push({meta:{divineHealing:true},update(){renderer.draw(this.age);if(!landed&&this.age>=timing.charge+timing.travel){landed=true;if(fx==='revive')holyPillar(tid);impact(tid);SFX.play(fx==='revive'?'revive':'heal')}return this.age<timing.total}});return;
  }
  const support={bardRiff:'major',bardTaunt:'minor',bardInspire:'inspire',bardFortune:'fortune',bardFlex:'flex',prayerWisdom:'prayerWisdom',prayerStrength:'prayerStrength'}[fx];
+ if(support&&out==='miss'){SFX.play('bard_song_minor');return;}
  if(support){SupportEffects.start(support,{preview:false,actorId:ev.actor,targetId:tid,targetIds:ev.targets.map(x=>x.id)});return}
  if(fx==='claw'){
   if(beastStrike(ev,tid))return;
@@ -12628,7 +12624,7 @@ function stageAttack(){
   layer.classList.add('gvfx-closeup');for(const id of ids)cards[id].el.classList.add('gvfx-focus');
  }else if(!options.local){
   for(const[id,c]of Object.entries(cards)){const r=c.rect;if(ids.includes(id))layouts[id]={x:clamp(r.x-r.w*.075,4,W-r.w*1.15-4),y:clamp(r.y-r.h*.075-16,4,H-r.h*1.15-4),w:r.w*1.15,h:r.h*1.15};
-   else{let dx=0;for(const aid of ids){const a=homes[aid];if(a&&Math.abs(a.y-r.y)<r.h*.4&&Math.abs(a.x-r.x)<r.w*1.8)dx+=Math.sign(r.x-a.x)*r.w*.09}if(dx)layouts[id]={...r,x:r.x+dx};}
+   // Non-participants keep their original position throughout the action.
   }
  }
  // Hidden actor still supplies the approved weapon scale. Its invisible
@@ -12639,7 +12635,7 @@ function stageAttack(){
  const finishAttack=()=>{
   tasks.length=0;objs.length=0;parts.length=0;SupportEffects.clear();
   active.finishWhenQuiet=null;
-  if(Object.keys(layouts).length)travel(homes,.35,complete);else complete();
+  if(Object.keys(layouts).length)travel(Object.fromEntries(Object.keys(layouts).map(id=>[id,homes[id]])),.35,complete);else complete();
  };
  const attack=()=>{dispatch();active.attackStarted=clock;active.finishWhenQuiet=finishAttack;};
  if(Object.keys(layouts).length)travel(layouts,close?.88:.25,()=>after(close?180:0,attack));else attack();
@@ -12860,8 +12856,8 @@ global.GrivensburgVFX={create,version:'1.2.0',approved:'lab-2.9.0 + closeup-cont
 .round-preview{padding:14px 24px;border:1px solid #b69659;border-radius:6px;color:#e7ce9c;background:#201a15d9;font:600 28px Georgia,serif}
 
 </style>
-<meta name="grivensburg-build" content="FIX33.1-R16.4-A1-HF09">
-<meta name="grivensburg-data-signature" content="6e6cf104b15719b91a1c53c5d61dff4b5f9e79ab82507343f8d9de868c20b36b">
+<meta name="grivensburg-build" content="FIX33.1-R16.4-A1-HF11">
+<meta name="grivensburg-data-signature" content="9a0c3b907f439b5a8ec776850ce29a2ba20cd24c9028886005433d3aaf6b05c9">
 
 <style id="wolf-phase-announcement-style">
 #wolf-phase-announcement{position:absolute;inset:0;z-index:9500;display:none;align-items:center;justify-content:center;padding:4%;pointer-events:none;background:radial-gradient(ellipse at center,rgba(7,8,10,.64),rgba(7,8,10,.24) 68%,rgba(7,8,10,.06));}
@@ -12933,6 +12929,15 @@ global.GrivensburgVFX={create,version:'1.2.0',approved:'lab-2.9.0 + closeup-cont
 .await-roll.info-frame{position:absolute!important;top:12px;left:50%;transform:translateX(-50%)}
 </style>
 
+<style id="hf11-layout">
+
+.await-roll{inset:16px 3% auto!important;display:block!important;text-align:center;pointer-events:none}
+.await-roll .await-dice{display:none!important}.await-roll .await-text{font:700 clamp(28px,3.1vw,56px)/1.15 Georgia,serif!important;color:#ffda79!important;text-shadow:0 2px 3px #000,0 0 14px #000;overflow-wrap:anywhere}
+#liveNoticeToast.info-frame{position:fixed!important;top:16px;left:50%;transform:translateX(-50%);width:min(1100px,94vw)!important}
+#liveNoticeToast.info-frame .info-content{inset:22% 23% 21%;font-size:clamp(16px,2.8cqw,34px);font-weight:700;line-height:1.15;overflow-wrap:anywhere}
+#liveNoticeToast.info-frame .info-content b{font-size:1.35em}
+
+</style>
 </head>
 <body>
 <details id="viewer-settings" hidden>
@@ -12941,18 +12946,18 @@ global.GrivensburgVFX={create,version:'1.2.0',approved:'lab-2.9.0 + closeup-cont
   <div>Комната: <strong id="viewer-room-name">—</strong></div>
   <button type="button" onclick="changeViewerRoom()">Сменить комнату</button>
   <label for="viewer-card-size">Общий размер карточек <output id="viewer-card-size-value">80%</output></label>
-  <input id="viewer-card-size" data-preview data-preview-linger="2200" type="range" min="0" max="100" value="80" oninput="setCardSize(this.value)">
+  <input id="viewer-card-size" data-preview type="range" min="0" max="100" value="80" oninput="setCardSize(this.value)">
   <small>Размеры интерфейса, карточек героев, врагов и очереди задаются ведущим в настройках мобильного Дашборда → «Стрим».</small>
   <label for="viewer-resultSize">Размер результата <output id="viewer-resultSize-value">100%</output></label>
-  <input id="viewer-resultSize" data-preview data-preview-linger="2200" type="range" min="60" max="150" value="100" oninput="setViewerEffect('resultSize',this.value)">
+  <input id="viewer-resultSize" data-preview type="range" min="60" max="150" value="100" oninput="setViewerEffect('resultSize',this.value)">
   <label for="viewer-fighterSize">Бойцы в анимациях <output id="viewer-fighterSize-value">100%</output></label>
-  <input id="viewer-fighterSize" data-preview data-preview-linger="2200" type="range" min="60" max="130" value="100" oninput="setViewerEffect('fighterSize',this.value)">
+  <input id="viewer-fighterSize" data-preview type="range" min="60" max="130" value="100" oninput="setViewerEffect('fighterSize',this.value)">
   <button onclick="openViewerDice()">🎲 Настройки дайсов</button>
   <button onclick="resetViewerPreferences()">Сбросить личные настройки</button>
   <label for="viewer-journal-size">Размер журнала <output id="viewer-journal-size-value">50%</output></label>
-  <input id="viewer-journal-size" data-preview data-preview-linger="2200" type="range" min="0" max="100" value="50" oninput="setJournalSize(this.value)">
+  <input id="viewer-journal-size" data-preview type="range" min="0" max="100" value="50" oninput="setJournalSize(this.value)">
   <label for="viewer-roundSize">Размер раунда <output id="viewer-roundSize-value">100%</output></label>
-  <input id="viewer-roundSize" data-preview data-preview-linger="2200" type="range" min="60" max="200" value="100" oninput="setViewerEffect('roundSize',this.value)">
+  <input id="viewer-roundSize" data-preview type="range" min="60" max="200" value="100" oninput="setViewerEffect('roundSize',this.value)">
   <label for="viewer-volume">Громкость <output id="viewer-volume-value">100%</output></label>
   <input id="viewer-volume" type="range" min="0" max="100" value="100" oninput="setViewerVolume(this.value)">
   <label id="dashboard-preview-mute-row" class="viewer-check" hidden><input id="dashboard-preview-mute" type="checkbox" onchange="setDashboardPreviewMute(this.checked)">Убрать звук Стримера в Дашборде</label>
@@ -12979,7 +12984,7 @@ global.GrivensburgVFX={create,version:'1.2.0',approved:'lab-2.9.0 + closeup-cont
         
         <div class="stream-header">
             <div class="stream-room-badge" id="streamRoomBadge" onclick="exitStreamRoom()" title="Выйти / сменить комнату">Комната: <span id="streamRoomName">...</span> ✖</div>
-            <div class="header-version">STREAM FIX33.1-R16.4-A1-HF09</div>
+            <div class="header-version">STREAM FIX33.1-R16.4-A1-HF11</div>
             <div class="header-title-container">
                 <h1 class="header-title">🏰 Старый Гривенсбург <span id="scenario-tag" class="scenario-tag">...</span></h1>
             </div>
@@ -13662,6 +13667,7 @@ function screenPrefs(){
   independent=GrivensburgScreen.setIndependent(S.room,{...GrivensburgScreen.defaults,...roomView,...displayOverrides},scope);
  }
  const base=independent?{...GrivensburgScreen.defaults,...independent}:{...GrivensburgScreen.defaults,...roomView};
+ for(const key of ['resultSize','fighterSize'])if(!Object.prototype.hasOwnProperty.call(personal,key))base[key]=roomView[key]??GrivensburgScreen.defaults[key];
  const localAudio=GrivensburgScreen.overrides(S.room,viewerAudioScope);
  return {...base,...personal,...visitDisplay,...visitAudio,
   volume:visitAudio.volume??localAudio.volume??personal.volume??100,
@@ -13733,6 +13739,7 @@ function applyPersonalScreen(){
     document.documentElement.style.setProperty('--interface-scale',String(p.uiScale/100));
     for(const key of ['resultSize','fighterSize','roundSize']){const el=$('viewer-'+key);if(el){if(document.activeElement!==el)el.value=p[key];$('viewer-'+key+'-value').value=p[key]+'%';}}
     fitScreen();
+    for(const box of document.querySelectorAll('[data-live-result-size]'))box.style.scale=String(p.resultSize/100);
     updateViewerSample();
 }
 GrivensburgScreen.subscribe(room=>{if(room===S.room)applyPersonalScreen()});
@@ -13838,7 +13845,7 @@ function subscribe() {
             S.autoShow = autoShow;
             activeResultCards.forEach(syncCardMode);
         }
-        S.vfx=v?.vfx||{};S.broadcastView=v?.viewer||{};applyPersonalScreen();
+        S.vfx=v?.vfx||{};S.broadcastView=v?.viewer||{};applyPersonalScreen();syncRoomPreview(v?.displayPreview);
         resultConfigReady=true;restoreManualResults();
         diceV2Config(v && v.dice);
         if (!v) return;
@@ -14263,6 +14270,7 @@ function renderQueue(D) {
                      numTag = num(d.e.number); }
         }
         const col = hpPct < 25 ? '#c0392b' : (hpPct < 50 ? '#f1c40f' : '#2ecc71');
+        init = item.init != null ? num(item.init) : num(init);
         const badge = init !== 0 ? `<div class="queue-init-badge">⚡${init > 0 ? '+' + init : init}</div>` : '';
         const numBadge = numTag ? `<div class="queue-num-badge">${numTag}</div>` : '';
 
@@ -14362,7 +14370,7 @@ function showAwaiting(data) {
     const кто = esc(data.who || 'игрок');
     box.innerHTML = `<div class="await-dice"></div>
                      <div class="await-text">🎲 ${кто} бросает…</div>`;
-    useInfoFrame(box,'dice');layer.appendChild(box);
+    layer.appendChild(box);
     awaitBox = box;
 
     /* СТАРОГО КУБИКА ЗДЕСЬ БОЛЬШЕ НЕТ (решение автора 28.09.2026). Он
@@ -14475,9 +14483,9 @@ function showTavern(t) {
          <div class="ch-art">
            <img src="${assetUrl(t.art || 'assets/interface/taverna.webp')}" alt=""
                 onerror="this.style.opacity=.15">
-           ${место('drinks',    '39.5%', '52%', '15.5%', '25%')}
-           ${место('room',      '58%',   '52%', '15.5%', '25%')}
-           ${место('provision', '76.5%', '52%', '15.5%', '25%')}
+           ${место('drinks',    '36.85%', '39.06%', '15%', '27.34%')}
+           ${место('room',      '55.6%', '39.06%', '15.23%', '27.34%')}
+           ${место('provision', '79.1%', '38.28%', '15.3%', '24.41%')}
          </div>`;
 }
 
@@ -14486,9 +14494,10 @@ function showLivePreview(data) {
     if (!data) { box.style.display = 'none'; return; }
     const fresh = Date.now() - num(data.timestamp) < 8000;
     if (!fresh) { box.style.display = 'none'; return; }
-    box.innerHTML = data.text
-        ? esc(data.text)
-        : `🎲 ${esc(data.who || '')} бросает… <b style="font-size:1.3rem">${num(data.roll)}</b>`;
+    const result=data.roll!=null || /выкинул|выпало|выбросил/i.test(String(data.text||''));
+    box.className='';
+    box.innerHTML = data.text ? esc(data.text) : `${esc(data.who || 'Игрок')} выкинул <b>${num(data.roll)}</b>`;
+    if(result)useInfoFrame(box,'dice');
     box.style.display = 'block';
     clearTimeout(showLivePreview._t);
     showLivePreview._t = setTimeout(() => { box.style.display = 'none'; }, 4000);
@@ -15215,6 +15224,7 @@ function finishCardAfter(box, done, ms, deferStart = false) {
         box.remove();
         done();
     };
+    box.dataset.liveResultSize='';
     box.style.scale=String(Math.max(.6,Math.min(1.5,Number(screenPrefs().resultSize)/100||1)));
     box.cardStarted = deferStart ? null : Date.now(); box.cardDuration = ms;
     activeResultCards.add(box);
@@ -15641,7 +15651,22 @@ document.addEventListener('visibilitychange',syncViewerVisibility);
 if(parent!==window)parent.postMessage({type:'gb-panel-visibility-request'},'*');
 
 // Samples never enter the game event queue and never acknowledge a combat event.
+
+var roomPreviewId=null,roomPreviewTimer=null;
+function syncRoomPreview(value){
+ if(viewerRole!=='standalone')return;
+ clearTimeout(roomPreviewTimer);roomPreviewTimer=null;
+ const left=Number(value?.until)-Date.now(),kind=value?.kind;
+ const localGesture=document.documentElement.hasAttribute('data-gb-preview');
+ if(!value?.id || !['result','fighter'].includes(kind) || !(left>0)){
+  if(roomPreviewId&&!localGesture)showViewerSample(null);roomPreviewId=null;return;
+ }
+ roomPreviewId=value.id;
+ if(!localGesture)showViewerSample(kind);
+ roomPreviewTimer=setTimeout(()=>syncRoomPreview(null),Math.min(5000,left));
+}
 var viewerSampleKind=null,viewerSample=null,viewerSampleLayers=[];
+
 function showViewerSample(kind){
  if(kind && kind===viewerSampleKind && viewerSample){updateViewerSample();return;}
  if(viewerSampleLayers.length){for(const x of viewerSampleLayers)x.el.className=x.className;viewerSampleLayers=[];fitScreen();}
